@@ -8,6 +8,7 @@ import { isAuth } from '../helpers/auth';
 
 const Register = () => {
     const [state, setState] = useState({
+        id: '',
         name: '',
         email: '',
         password: '',
